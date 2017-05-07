@@ -1,0 +1,14 @@
+﻿<?xml version="1.0"?>
+<package xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <metadata xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <id>Some.UsefulLibrary</id>
+    <version>1.2.3</version>
+    <authors>John Smith</authors>
+    <owners>John Smith Ltd</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Does useful stuff</description>
+  </metadata>  
+  <files>
+    <file src="UsefulLibrary\bin\Release\*" target="lib" />
+  </files>
+</package>
